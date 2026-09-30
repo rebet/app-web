@@ -29,6 +29,9 @@
         }
     },
     "scripts": {
-        "rebet": "rebet"
+        "rebet": [
+            "Composer\\Config::disableProcessTimeout",
+            "rebet"
+        ]
     }
 }
