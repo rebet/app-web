@@ -2,22 +2,11 @@
     "name": "rebet/app-web",
     "description": "WEB application skelton for the Rebet PHP framework",
     "keywords": [
-        "rebet"
-    ],
-    "authors": [
-        {
-            "name": "Junichi Shibata",
-            "email": "rain.noise@gmail.com"
-        }
+        "rebet",
+        "framework"
     ],
     "license": "MIT",
     "type": "project",
-    "support": {
-        "email": "rain.noise@gmail.com",
-        "issues": "https://github.com/rebet/app-web/issues",
-        "source": "https://github.com/rebet/app-web",
-        "docs": "https://github.com/rebet/app-web/blob/master/README.md"
-    },
     "config": {
         "platform": {
             "php": "8.3"
@@ -26,7 +15,7 @@
         "vendor-dir": "app/vendor"
     },
     "require": {
-        "php": ">=8.3",
+        "php": "^8.3",
         "rebet/rebet": "dev-php-8.3"
     },
     "autoload": {
